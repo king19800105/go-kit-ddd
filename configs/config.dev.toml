@@ -1,0 +1,16 @@
+[database]
+dialect="mysql"
+host="127.0.0.1:3306"
+username="root"
+password="root"
+name="user"
+charset="utf8"
+timeout="10ms"
+max_life_time=3600
+max_idle_conns=10
+max_open_conns=100
+prefix="u_"
+use_log=true
+
+[cache]
+server="192.168.1.1"
